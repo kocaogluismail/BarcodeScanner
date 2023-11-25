@@ -1,0 +1,17 @@
+//
+//  BarcodeScannerApp.swift
+//  BarcodeScanner
+//
+//  Created by İsmail Kocaoglu on 24.11.2023.
+//
+
+import SwiftUI
+
+@main
+struct BarcodeScannerApp: App {
+    var body: some Scene {
+        WindowGroup {
+            BarcodeScannerView()
+        }
+    }
+}
